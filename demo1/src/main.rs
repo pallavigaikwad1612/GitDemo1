@@ -7,6 +7,11 @@ fn main() {
     let result = evennum(22);
     println!("Function Completed");
 
+    let greeting = greet("Pallavi");
+    println!("{}", greeting);
+
+    
+
 }
 
 fn evennum(num : i32){
@@ -15,4 +20,8 @@ fn evennum(num : i32){
     }else{
         println!("{} is odd", num);
     }
+}
+
+fn greet(name: &str) -> String {
+    format!("Hello, {}!", name)
 }
