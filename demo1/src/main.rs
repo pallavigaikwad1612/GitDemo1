@@ -5,6 +5,7 @@ fn main() {
     }
 
     let result = evennum(22);
+    println!("Function Completed");
 
 }
 
